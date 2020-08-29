@@ -198,13 +198,13 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -283,7 +283,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/10/css/" class="post-title-link" itemprop="url">css</a>
+            <a href="/2020/08/10/css/" class="post-title-link" itemprop="url">html知识归纳《二》</a>
         </h2>
 
         <div class="post-meta">
@@ -300,7 +300,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-20 23:48:21" itemprop="dateModified" datetime="2020-08-20T23:48:21+08:00">2020-08-20</time>
+                <time title="修改时间：2020-08-29 22:30:37" itemprop="dateModified" datetime="2020-08-29T22:30:37+08:00">2020-08-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -308,7 +308,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%89%8D%E7%AB%AF-css/" itemprop="url" rel="index"><span itemprop="name">前端 --css</span></a>
+                  <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">前端</span></a>
                 </span>
             </span>
 
@@ -321,7 +321,39 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          
+          <p><code> &lt;main&gt;</code> 标签规定文档的主要内容。<code>&lt;main&gt;</code>元素中的内容对于文档来说应当是唯一的。<br>        它不应包含在文档中重复出现的内容，比如侧栏、导航栏、版权信息、站点标志或搜索表单。<br>        在一个文档中，不能出现一个以上的 <code>&lt;main&gt;</code> 元素。<br>        <code>&lt;main&gt; </code>元素不能是以下元素的后代：<code>&lt;article&gt;、&lt;aside&gt;、&lt;footer&gt;、&lt;header&gt; 或 &lt;nav&gt;。</code><br>     <code>&lt;article&gt;</code> 标签规定独立的自包含内容。<br>                        一篇文章应有其自身的意义，应该有可能独立于站点的其余部分对其进行分发。<br>                        <code>&lt;article&gt;</code> 元素的潜在来源：<br>                        论坛帖子 报纸文章 博客条目 用户评论<br>                        属性 &nbsp;&nbsp;  共有属性</p>
+<hr>
+<p><code>&lt;header&gt;</code>标签定义文档的页眉（介绍信息）<br><code> &lt;header&gt;</code>我是页眉<code>&lt;/header&gt;</code></p>
+<hr>
+<p><code>&lt;aside&gt; </code>的内容可用作文章的侧栏<br><code>&lt;aside&gt;</code>标签定义其所处内容之外的内容。<br><code>&lt;aside&gt;</code>的内容应该与附近的内容相关<br><code>&lt;aside&gt;</code><br>          <code> &lt;nav&gt;</code> 标签定义导航链接的部分<br>                         如果文档中有“前后”按钮，则应该把它放到 <code>&lt;nav&gt; </code>元素中。<br>          <code> &lt;nav&gt;</code><br>               我是一个导航条块<br>          <code> &lt;a href=&quot;index.asp&quot;&gt;Home&lt;/a&gt;</code><br>          <code> &lt;a href=&quot;html5_meter.asp&quot;&gt;Previous&lt;/a&gt;</code><br>          <code>&lt;a href=&quot;html5_noscript.asp&quot;&gt;Next&lt;/a&gt;</code><br>          <code>&lt;/nav&gt;</code><br><code>&lt;/aside&gt;</code></p>
+<hr>
+<p><code>&lt;section&gt;</code> 标签定义文档中的节（section、区段）。比如章节、页眉、页脚或文档中的其他部分。<br>                属性：<br>                     cite    &nbsp;&nbsp;   URL    &nbsp;&nbsp;section 的 URL，假如 section 摘自 web 的话。<br>           <code> &lt;section&gt;</code><br>                我是一个独立的<br>            <code>&lt;/section&gt;</code></p>
+<hr>
+<p><code>&lt;footer&gt;</code> 标签定义文档或节的页脚。<code>&lt;footer&gt;</code> 元素应当含有其包含元素的信息。页脚通常包含文档的作者、版权信息、使用条款链接、联系信息等等。您可以在一个文档中使用多个<code>&lt;footer&gt;</code>元素。<br><code> &lt;footer&gt;</code> 元素内的联系信息应该位于<code> &lt;address&gt;</code> 标签中<br>     <code>&lt;footer&gt;</code><br>               <code>&lt;address&gt; Written by &lt;a href=&quot;mailto:webmaster@example.com&quot;&gt;Donald Duck&lt;/a&gt;.&lt;br&gt;</code><br>                   <code> Visit us at:&lt;br&gt;</code><br>                    <code>Example.com&lt;br&gt;</code><br>                    <code>Box 564, Disneyland&lt;br&gt;</code><br>                    <code>USA</code><br>               <code> &lt;/address&gt;</code><br>     <code>&lt;/footer&gt;</code></p>
+<hr>
+<p>&emsp;<code>&lt;cite&gt;</code> 标签通常表示它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题。<br>             按照惯例，引用的文本将以斜体显示。<br>             用<code>&lt;cite&gt;</code>标签把指向其他文档的引用分离出来，尤其是分离那些传统媒体中的文档，如书籍、杂志、期刊，等等。<br>                 如果引用的这些文档有联机版本，还应该把引用包括在一个<code>&lt;a&gt;</code>标签中，从而把一个超链接指向该联机版本。<br>            <code>&lt;cite&gt;</code> 标签还有一个隐藏的功能：它可以使你或者其他人从文档中自动摘录参考书目。<br>                我们可以很容易地想象一个浏览器，它能够自动整理引用表格，并把它们作为脚注或者独立的文档来显示。<br>                <code>&lt;cite&gt;</code> 标签的语义已经远远超过了改变它所包含的文本外观的作用；<br>                它使浏览器能够以各种实用的方式来向用户表达文档的内容。<br>    <code>&lt;cite&gt;</code><br>        <code>&lt;a href=&quot;http://www.baidu.com&quot;&gt;</code>红楼梦<code>&lt;/a&gt;</code><br>     <code> &lt;/cite&gt;</code></p>
+<hr>
+<p> &emsp;<code>&lt;audio&gt;</code> 标签定义声音，比如音乐或其他音频流。<br>        可以在开始标签和结束标签之间放置文本内容，这样老的浏览器就可以显示出不支持该标签的信息。<br>属性：<br>        autoplay&nbsp;&nbsp;    autoplay&nbsp;&nbsp;        如果出现该属性，则音频在就绪后马上播放。<br>        controls&nbsp;&nbsp;    controls &nbsp;&nbsp;       如果出现该属性，则向用户显示控件，比如播放按钮。<br>        loop&nbsp;&nbsp;        loop    &nbsp;&nbsp;        如果出现该属性，则每当音频结束时重新开始播放。<br>        muted&nbsp;&nbsp;        muted    &nbsp;&nbsp;        规定视频输出应该被静音。<br>        preload&nbsp;&nbsp;        preload&nbsp;&nbsp;            如果出现该属性，则音频在页面加载时进行加载，并预备播放。 如果使用 “autoplay”，则忽略该属性。<br>        src  &nbsp;&nbsp;           url&nbsp;&nbsp;            要播放的音频的 URL。<br><code>&lt;audio controls=&quot;controls&quot; loop=&quot;loop&quot; muted=&quot;muted&quot; src=&quot;&quot;&gt;</code>仅支持H5<code>&lt;/audio&gt;</code></p>
+<hr>
+<p><code>&lt;big&gt;</code> 标签呈现大号字体效果。<br>        使用 <code>&lt;big&gt;</code> 标签可以很容易地放大字体。这简直不能再简单了：浏览器显示包含在 <code>&lt;big&gt;</code> 标签和其相应的<code> &lt;/big&gt;</code> 标签之间的文字时，其字体比周围的文字要大一号。但是，如果文字已经是最大号字体，这个 <code>&lt;big&gt;</code> 标签将不起任何作用。<br>        更妙的是，可以嵌套 <code>&lt;big&gt; </code>标签来放大文本。每一个<code>&lt;big&gt;</code>标签都可以使字体大一号，直到上限 7 号文本，正如字体模型所定义的那样。<br>        但是使用 <code>&lt;big&gt;</code> 标签的时候还是要小心，因为浏览器总是很宽大地试图去理解各种标签，对于那些不支持<code> &lt;big&gt;</code> 标签的浏览器来说，它经常将其认为是粗体字标签。<br>    <code>&lt;big&gt;</code>大写的<code>&lt;/big&gt;</code></p>
+<hr>
+<p> <code> &lt;small&gt;</code> 标签呈现小号字体效果。<br>        <code>&lt;small&gt; </code>标签和它所对应的<code> &lt;big&gt;</code> 标签一样，但它是缩小字体而不是放大。<br>         如果被包围的字体已经是字体模型所支持的最小字号，那么 <code>&lt;small&gt;</code> 标签将不起任何作用。<br>        与<code> &lt;big&gt;</code> 标签类似，<code>&lt;small&gt;</code> 标签也可以嵌套，从而连续地把文字缩小。<br>        每个 <code>&lt;small&gt;</code> 标签都把文本的字体变小一号，直到达到下限的一号字。<br>    <code>&lt;small&gt;</code>小写的<code>&lt;/small&gt;</code></p>
+<hr>
+<p><code> &lt;blockquote&gt;</code> 标签定义块引用。<br>           <code>&lt;blockquote&gt;</code>与 <code>&lt;/blockquote&gt; </code>之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。<br>        <code>&lt;blockquote cite=&quot;url地址&quot;&gt;</code><br>           <code> &lt;p&gt;</code>这是一个块引用<code>&lt;/p&gt;</code><br>        <code>&lt;/blockquote&gt;</code></p>
+<hr>
+<p><code>&lt;q&gt; </code>标签定义短的引用。浏览器经常在引用的内容周围添加引号。<br>           <code> &lt;q&gt;</code> 标签在本质上与<code>&lt;blockquote&gt;</code> 是一样的。不同之处在于它们的显示和应用。<code>&lt;q&gt;</code> 标签用于简短的行内引用。如果需要从周围内容分离出来比较长的部分（通常显示为缩进的块），请使用<code> &lt;blockquote&gt;</code> 标签。<br>            <code>&lt;q cite=&quot;&quot;&gt;</code>这是一个短引用<code>&lt;/q&gt;</code></p>
+<hr>
+<p> <code>&lt;br&gt;</code> 可插入一个简单的换行符。<br>                    <code>&lt;br&gt;</code> 标签是空标签（意味着它没有结束标签，因此这是错误的：<code>&lt;br&gt;&lt;/br&gt;</code>）。<br>                    在 XHTML 中，把结束标签放在开始标签中，也就是 <code>&lt;br /&gt;</code>。<br>                    请注意，<code>&lt;br&gt; </code>标签只是简单地开始新的一行，而当浏览器遇到<code> &lt;p&gt;</code> 标签时，通常会在相邻的段落之间插入一些垂直的间距。<br>                    clear 属性<br>                    如果您希望文本流在内联表格或图像的下一行继续输出，请使用 clear 属性，该属性有三个可选的值：left、right 或者 all，每个值都代表一个边界或两边的边界。<br>                    更多有关<code>&lt;br&gt;</code>标签的 clear 属性的信息。 </p>
+<hr>
+<p>如果在 HTML 表单中使用 button 元素，不同的浏览器会提交不同的值。<br>     Internet Explorer 将提交 <code>&lt;button&gt; </code>与 <code>&lt;/button&gt; </code>之间的文本，而其他浏览器将提交 value 属性的内容。<br>     <code>&lt;button&gt;</code> 标签定义一个按钮<br>     在 button 元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 input 元素创建的按钮之间的不同之处。<br>     <code>&lt;button&gt; </code>控件 与 <code>&lt;input type=&quot;button&quot;&gt; </code>相比，提供了更为强大的功能和更丰富的内容。<br>     <code>&lt;button&gt; </code>与 <code>&lt;/button&gt;</code> 标签之间的所有内容都是按钮的内容，其中包括任何可接受的正文内容，比如文本或多媒体内容。<br>     例如，我们可以在按钮中包括一个图像和相关的文本，用它们在按钮中创建一个吸引人的标记图像。<br>     唯一禁止使用的元素是图像映射，因为它对鼠标和键盘敏感的动作会干扰表单按钮的行为。<br>     请始终为按钮规定 type 属性。Internet Explorer 的默认类型是 “button”，而其他浏览器中（包括 W3C 规范）的默认值是 “submit”。<br>     autofocus&nbsp;&nbsp;    autofocus&nbsp;&nbsp;    规定当页面加载时按钮应当自动地获得焦点。<br>     disabled&nbsp;&nbsp;    disabled&nbsp;&nbsp;    规定应该禁用该按钮。<br>     form    &nbsp;&nbsp;form_name&nbsp;&nbsp;    规定按钮属于一个或多个表单。<br>     formaction&nbsp;&nbsp;    url    &nbsp;&nbsp;        覆盖 form 元素的 action 属性。释：该属性与 type=”submit” 配合使用。<br>     formenctype&nbsp;&nbsp;    见注释&nbsp;&nbsp;        覆盖 form 元素的 enctype 属性。注释：该属性与type=”submit” 配合使用。<br>     formmethod&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;                覆盖 form 元素的 method 属性。注释：该属性与 type=”submit” 配合使用。<br>                   &nbsp;&nbsp; &nbsp;&nbsp; get<br>                    &nbsp;&nbsp;&nbsp;&nbsp;post<br>     formnovalidate&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;    formnovalidate    覆盖 form 元素的 novalidate 属性。注释：该属性与 type=”submit” 配合使用。<br>                    formtarget    &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;                覆盖 form 元素的 target 属性。注释：该属性与 type=”submit” 配合使用。<br>                                    _blank<br>                                    _self<br>                                    _parent<br>                                    _top<br>                                    framename</p>
+<pre><code>                        name    button_name            规定按钮的名称。
+                        type                        规定按钮的类型。
+                                button
+                                reset
+                                submit
+                        value    text                规定按钮的初始值。可由脚本进行修改。</code></pre>
+<p><code> &lt;button value=&quot;提交内容&quot; nane=&quot;aaa&quot;&gt;</code>IE提交内容<code>&lt;/button&gt;</code></p>
+
       
     </div>
 
@@ -356,7 +388,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/08/02/My-New-Post/" class="post-title-link" itemprop="url">html知识归纳</a>
+            <a href="/2020/08/02/My-New-Post/" class="post-title-link" itemprop="url">html知识归纳《一》</a>
         </h2>
 
         <div class="post-meta">
@@ -373,7 +405,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-21 00:01:31" itemprop="dateModified" datetime="2020-08-21T00:01:31+08:00">2020-08-21</time>
+                <time title="修改时间：2020-08-29 21:25:10" itemprop="dateModified" datetime="2020-08-29T21:25:10+08:00">2020-08-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -394,86 +426,49 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <!DOCTYPE><p> 声明必须是 HTML 文档的第一行，位于 <html> 标签之前。<br>&lt;!DOCTYPE&gt; 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。<br>在 HTML 4.01 中，&lt;!DOCTYPE&gt; 声明引用 DTD，因为 HTML 4.01 基于 SGML。DTD 规定了标记语言的规则，这样浏览器才能正确地呈现内容。<br>HTML5 不基于 SGML，所以不需要引用 DTD。</p>
-<!DOCTYPE html>
+          <p><code>&lt;!DOCTYPE&gt; </code>声明必须是 HTML 文档的第一行，位于 <code>&lt;html&gt; </code>标签之前。<br><code>&lt;!DOCTYPE&gt; </code>声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。<br>在 HTML 4.01 中，<code>&lt;!DOCTYPE&gt; </code>声明引用 DTD，因为 HTML 4.01 基于 SGML。DTD 规定了标记语言的规则，这样浏览器才能正确地呈现内容。<br>HTML5 不基于 SGML，所以不需要引用 DTD。</p>
+<p><code>&lt;!DOCTYPE html&gt;</code></p>
+<hr>
+<p>html 此元素可告知浏览器其自身是一个HTML文档。<br><code>&lt;html&gt;</code> 与 <code>&lt;/html&gt;</code> 标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体。<br>正如您所了解的那样，文档的头部由 <code>&lt;head&gt;</code> 标签定义，而主体由<code> &lt;body&gt;</code> 标签定义。<br>即使 html 元素是文档的根元素，它也不包含 doctype 元素。doctype 元素必须位于 html 元素之前。<br>属性:<br>    manifest    &nbsp;&nbsp;  url       &nbsp;&nbsp;&nbsp;&nbsp;  定义一个 URL，在这个 URL 上描述了文档的缓存信息。<br>    xmlns    &nbsp;&nbsp;  <a target="_blank" rel="noopener" href="http://www.w3.org/1999/xhtml">http://www.w3.org/1999/xhtml</a>  &nbsp;&nbsp;&nbsp;&nbsp; 定义 XML namespace 属性。</p>
+<hr>
+<p><code>&lt;html lang=&quot;en&quot;&gt;</code><br>lang 属性规定元素内容的语言。<br>     Chinese (Simplified) &nbsp;&nbsp;&nbsp;&nbsp;    zh<br>     English&nbsp;&nbsp;&nbsp;&nbsp;  en</p>
+<hr>
+<p><code>&lt;head&gt; </code>标签用于定义文档的头部，它是所有头部元素的容器。<br><code>&lt;head&gt; </code>中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。<br><code>&lt;title&gt;</code> 定义文档的标题，它是 head 部分中唯一必需的元素。</p>
+<hr>
+<p><code>&lt;meta&gt;</code> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。<br><code>&lt;meta&gt;</code> 标签位于文档的头部，不包含任何内容。<meta> 标签的属性定义了与文档相关联的名称/值对。<br>属性:<br>           &nbsp;&nbsp;&nbsp;&nbsp;     content<br>           &nbsp;&nbsp;&nbsp;&nbsp;   http-equiv<br>           &nbsp;&nbsp;&nbsp;&nbsp;   name<br>           &nbsp;&nbsp;&nbsp;&nbsp;   scheme</p>
+<hr>
+<p><code>&lt;title&gt;</code> 元素可定义文档的标题。<br>                浏览器会以特殊的方式来使用标题，并且通常把它放置在浏览器窗口的标题栏或状态栏上。<br>                同样，当把文档加入用户的链接列表或者收藏夹或书签列表时，标题将成为该文档链接的默认名称。<br>               <code>&lt;title&gt;</code>标签是<code>&lt;head&gt;</code>标签中唯一要求包含的东西。<br>                属性:<br>                dir &nbsp;&nbsp;&nbsp;&nbsp;           规定元素中内容的文本方向。<br>                lang&nbsp;&nbsp;&nbsp;&nbsp;           规定元素中内容的语言代码。<br>                xml:lang&nbsp;&nbsp;&nbsp;&nbsp;       规定 XHTML 文档中元素内容的语言代码。<br> <code>&lt;title&gt;Document&lt;/title&gt;</code></p>
+<hr>
+<p> <code>&lt;base&gt;</code> 标签必须位于 head 元素内部。<br>        <code>&lt;base&gt;</code> 标签为页面上的所有链接规定默认地址或默认目标。<br>        通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白。<br>        使用 <code>&lt;base&gt;</code> 标签可以改变这一点。<br>        浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL。<br>        这其中包括 <code>&lt;a&gt;、&lt;img&gt;、&lt;link&gt;、&lt;form&gt;</code> 标签中的 URL。<br>           属性 :<br>               必须属性   &nbsp;&nbsp;&nbsp;&nbsp;href<br>               可选属性   &nbsp;&nbsp;&nbsp;&nbsp; target<br><code>&lt;base  href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot;&gt;</code></p>
+<hr>
+<p> <code>&lt;link&gt;</code> 标签定义文档与外部资源的关系。<br>    <code>&lt;link&gt;</code> 标签最常见的用途是链接样式表。<br>    link 元素是空元素，它仅包含属性。<br>    此元素只能存在于 head 部分，不过它可出现任何次数。</p>
+<p>属性 &nbsp;&nbsp;&nbsp;&nbsp;值    &nbsp;&nbsp;&nbsp;&nbsp;  描述<br>        href&nbsp;&nbsp;&nbsp;&nbsp;URL     &nbsp;&nbsp;&nbsp;&nbsp;  规定被链接文档的位置。<br>        hreflang&nbsp;&nbsp;&nbsp;&nbsp;    language_code&nbsp;&nbsp;&nbsp;&nbsp;    规定被链接文档中文本的语言。<br>        media&nbsp;&nbsp;&nbsp;&nbsp;media_query &nbsp;&nbsp;&nbsp;&nbsp;规定被链接文档将被显示在什么设备上。<br>        rel       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 规定当前文档与被链接文档之间的关系.<br>         &nbsp;&nbsp;&nbsp;&nbsp;           alternate<br>         &nbsp;&nbsp;&nbsp;&nbsp;           author<br>          &nbsp;&nbsp;&nbsp;&nbsp;          help<br>         &nbsp;&nbsp;&nbsp;&nbsp;           icon<br>         &nbsp;&nbsp;&nbsp;&nbsp;           licence<br>         &nbsp;&nbsp;&nbsp;&nbsp;           next<br>          &nbsp;&nbsp;&nbsp;&nbsp;          pingback<br>        &nbsp;&nbsp;&nbsp;&nbsp;            prefetch<br>         &nbsp;&nbsp;&nbsp;&nbsp;           prev<br>          &nbsp;&nbsp;&nbsp;&nbsp;          search<br>         &nbsp;&nbsp;&nbsp;&nbsp;           sidebar<br>        &nbsp;&nbsp;&nbsp;&nbsp;            stylesheet<br>         &nbsp;&nbsp;&nbsp;&nbsp;           tag<br>        sizes    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       规定被链接资源的尺寸。仅适用于 rel=”icon”。<br>         &nbsp;&nbsp;&nbsp;&nbsp;           heightxwidth<br>          &nbsp;&nbsp;&nbsp;&nbsp;          any<br> type &nbsp;&nbsp;&nbsp;&nbsp;MIME_type&nbsp;&nbsp;&nbsp;&nbsp; 规定被链接文档的 MIME 类型。<br><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;theme.css&quot; /&gt;</code></p>
+<hr>
+<p>body 元素定义文档的主体。<br>body 元素包含文档的所有内容（比如文本、超链接、图像、表格和列表等等。）</p>
+<hr>
+<p><code>&lt;abbr&gt;</code>标签指示简称或缩写，比如 标签指示简称或缩写，比如 “WWW”  或 “NATO”。<br>        通过对缩写进行标记，您能够为浏览器、拼写检查和搜索引擎提供有用的信息<br>        可以在 <code>&lt;abbr&gt; </code>标签中使用全局的 title 属性，<br>        这样就能够在鼠标指针移动到<code>&lt;abbr&gt;</code> 元素上时显示出简称/缩写的完整版本。<br><code> &lt;abbr title=&quot;缩写&quot;&gt;www&lt;/abbr&gt;</code></p>
+<hr>
+<p><code>&lt;address&gt;</code> 标签定义文档或文章的作者/拥有者的联系信息。<br>        如果 <code>&lt;address&gt; </code>元素位于<code>&lt;body&gt;</code>元素内，则它表示文档联系信息。<br>        如果 <code>&lt;address&gt;</code> 元素位于 <code>&lt;article&gt;</code> 元素内，则它表示文章的联系信息。<br>        <code>&lt;address&gt; </code>元素中的文本通常呈现为斜体。大多数浏览器会在 address 元素前后添加折行。<br>        提示和注释<br>        提示：<code>&lt;address&gt;</code> 标签不应该用于描述通讯地址，除非它是联系信息的一部分。<br>        提示：<code>&lt;address&gt;</code> 元素通常连同其他信息被包含在 <code>&lt;footer&gt;</code> 元素中。<br><code>&lt;address&gt;</code><br>   <code> Written by &lt;a href=&quot;mailto:webmaster@example.com&quot;&gt;Donald Duck&lt;/a&gt;.&lt;br&gt;</code><br>   <code>Visit us at:&lt;br&gt;</code><br>    <code>Example.com&lt;br&gt;</code><br>    <code>Box 564, Disneyland&lt;br&gt;</code><br>   <code>USA   </code><br><code>&lt;/address&gt;</code></p>
+<hr>
+<p>  <code>&lt;map&gt;</code>定义一个客户端图像映射。图像映射（image-map）指带有可点击区域的一幅图像<br>            area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。<br>            <code>&lt;img&gt;</code>中的 usemap 属性可引用<code> &lt;map&gt;</code> 中的 id 或 name 属性（取决于浏览器），<br>                所以我们应同时向 <code>&lt;map&gt; </code>添加 id 和 name 属性。<br>            area 元素永远嵌套在 map 元素内部。area 元素可定义图像映射中的区域。<br><code> &lt;img src=&quot;../day02/img/1.jpg&quot;  alt=&quot;图片&quot; usemap=&quot;#map&quot;&gt;</code><br><code> &lt;map name=&quot;map&quot; id=&quot;map&quot;&gt;</code><br><code> &lt;/map&gt;</code></p>
+<hr>
+<p><code>&lt;area&gt; </code>标签定义图像映射中的区域（注：图像映射指得是带有可点击区域的图像）。<br>area 元素总是嵌套在 <code>&lt;map&gt;</code> 标签中<br>属性:<br>    alt     &nbsp;&nbsp;&nbsp;&nbsp;            定义此区域的替换文本。(必选)<br>    可选属性：  </p>
+<pre><code>    coords    坐标值          定义可点击区域（对鼠标敏感的区域）的坐标。
+    href    URL             定义此区域的目标 URL。
+    nohref    nohref         从图像映射排除某个区域。
 
+shape                 定义区域的形状。
+        default
+        rect
+        circ
+        poly
 
-<p>html 此元素可告知浏览器其自身是一个 HTML 文档。</p>
-<html> 与 </html> 标签限定了文档的开始点和结束点，在它们之间是文档的头部和主体。
-正如您所了解的那样，文档的头部由 <head> 标签定义，而主体由 <body> 标签定义。
-即使 html 元素是文档的根元素，它也不包含 doctype 元素。doctype 元素必须位于 html 元素之前。
-属性    
-    manifest    url                            定义一个 URL，在这个 URL 上描述了文档的缓存信息。
-        xmlns    http://www.w3.org/1999/xhtml    定义 XML namespace 属性。
-
-<html lang="en">
-     lang 属性规定元素内容的语言。
-     Chinese (Simplified)    zh
-     English                 en
-
-
-<head> 标签用于定义文档的头部，它是所有头部元素的容器。
-<head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。
-<title> 定义文档的标题，它是 head 部分中唯一必需的元素。
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta> 元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。
-<meta charset="UTF-8">
-<meta> 标签位于文档的头部，不包含任何内容。<meta> 标签的属性定义了与文档相关联的名称/值对。 
-属性        content
-            http-equiv
-            name
-            scheme    
-
-<title> 元素可定义文档的标题。
-    浏览器会以特殊的方式来使用标题，并且通常把它放置在浏览器窗口的标题栏或状态栏上。
-    同样，当把文档加入用户的链接列表或者收藏夹或书签列表时，标题将成为该文档链接的默认名称。 
-    <title> 标签是 <head> 标签中唯一要求包含的东西。
-                属性
-                dir                    规定元素中内容的文本方向。
-                lang                规定元素中内容的语言代码。
-                xml:lang               规定 XHTML 文档中元素内容的语言代码。
-
-<pre><code>&lt;title&gt;Document&lt;/title&gt;</code></pre>
-<base> 标签必须位于 head 元素内部。
-<base> 标签为页面上的所有链接规定默认地址或默认目标。通常情况下，浏览器会从当前文档的 URL 中提取相应的元素来填写相对 URL 中的空白。使用 <base> 标签可以改变这一点。浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL。
-这其中包括 <a>、<img>、<link>、<form> 标签中的 URL。
-           属性   
-               必须属性    href   
-               可选属性    target   
-
-<pre><code>&lt;base  href=&quot;http://www.baidu.com&quot; target=&quot;_blank&quot;&gt;</code></pre>
-<link> 标签定义文档与外部资源的关系。
-    <link> 标签最常见的用途是链接样式表。
-    link 元素是空元素，它仅包含属性。
-    此元素只能存在于 head 部分，不过它可出现任何次数。
-
-<pre><code>    属性        值                       描述
-    href        URL                规定被链接文档的位置。
-    hreflang    language_code    规定被链接文档中文本的语言。
-    media    media_query         规定被链接文档将被显示在什么设备上。
-    rel                            规定当前文档与被链接文档之间的关系.
-                alternate
-                author
-                help
-                icon
-                licence
-                next
-                pingback
-                prefetch
-                prev
-                search
-                sidebar
-                stylesheet
-                tag
-    sizes                        规定被链接资源的尺寸。仅适用于 rel=&quot;icon&quot;。
-                heightxwidth
-                any
-
-    type        MIME_type         规定被链接文档的 MIME 类型。
-
-    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;theme.css&quot; /&gt;</code></pre>
+target                 规定在何处打开 href 属性指定的目标 URL。
+         _blank
+         _parent
+         _self
+         _top</code></pre>
+<p><code>&lt;area shape=&quot;circle&quot; coords=&quot;0,100,40&quot; href =&quot;http://www.baidu.com&quot; alt=&quot;Venus&quot; /&gt;</code><br><code>&lt;area shape=&quot;circle&quot; coords=&quot;0,200,40&quot; href=&quot;nohref&quot; alt=&quot;Venus&quot; title=&quot;wwwww&quot; /&gt;</code></p>
 
       
     </div>
